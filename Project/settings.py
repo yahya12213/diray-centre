@@ -127,7 +127,8 @@ CACHES = {
         'LOCATION': 'unique-snowflake',
     }
 }
-
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
 # Session Configuration
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 SESSION_COOKIE_AGE = 1209600  # 2 weeks in seconds
